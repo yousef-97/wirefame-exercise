@@ -1,4 +1,4 @@
-body{
+/* body{
     width: 1000px;
     height: 100%;
     margin-left: auto;
@@ -62,4 +62,112 @@ section p{
     height: 350px;
     width: 500px;
     margin-bottom: 25px;
+} */
+body{
+    position: relative;
+}
+
+
+header {
+    width: 100%;
+    background-color: #4567;
+}
+header img {
+    margin: 1% 0 1% 18.6%;
+}
+
+
+nav {
+    display: inline-block;
+}
+nav ul {
+    width: 1000px;
+    position: absolute;
+    display: inline-block;
+    top: 3.4%;
+}
+nav ul li {
+    margin-left: 12%;
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+}
+main{
+    position: relative;
+}
+.mainimg{
+    position: relative;
+    
+}
+main div img{
+    display: block;
+    margin: 30px auto;
+}
+section {
+    display: block;
+    position: relative;
+    margin-left: 18%;
+}
+section img {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 13px;
+}
+.secimg{
+    display: inline-block;
+    position: relative;
+    margin-left:22%;
+
+}
+.secimg img{
+    display: inline-block;
+    margin-left: -265px;
+
+}
+h2 {
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+section p{
+    
+    display: inline-block;
+    width: 90%;
+    text-align: justify;
+    position: absolute;
+    margin-left: 3%;
+    
+}
+#p {
+    display: inline-block;
+    position: absolute;
+    overflow-y: scroll;
+    margin: 30px;
+    height: 285px;
+    width: 450px;
+    margin-bottom: 25px;
+    top: 50px;
+}
+button {
+    border-radius:10px ;
+    background-color: rgb(167, 167, 167);
+    height: 38px;
+    width: 216px;
+    margin: 0px 50px 20px;
+    display: inline-block;
+    position: absolute;
+    bottom: 13px;
+}
+button:hover{
+    background-color: blue;
+}
+footer{
+    background-color:#4567 ;
+    width: 100%;
+    height: 100px;
 }
